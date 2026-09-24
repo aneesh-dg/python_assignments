@@ -1,0 +1,20 @@
+{
+    "procedure_name": "GetEmployeeDetails",
+    "parameters": [
+        {
+            "name": "@EmployeeId",
+            "type": "INT"
+        },
+        {
+            "name": "@DepartmentId",
+            "type": "INT"
+        }
+    ],
+    "tables": [
+        "Employees"
+    ],
+    "operations": [
+        "SELECT",
+        "UPDATE"
+    ]
+}
